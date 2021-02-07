@@ -14,13 +14,13 @@ startButton.addEventListener('click', function (event) {
 
     timer1 = setInterval(function () {
         firstItem.textContent = getRandomInt(9)
-    }, 1000)
+    }, 100)
     timer2 = setInterval(function () {
         secondItem.textContent = getRandomInt(9)
-    }, 1000)
+    }, 500)
     timer3 = setInterval(function () {
         thirdItem.textContent = getRandomInt(9)
-    }, 1000)
+    }, 300)
     timer1Active = true
     timer2Active = true
     timer3Active = true
